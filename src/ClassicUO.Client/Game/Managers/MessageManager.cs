@@ -387,9 +387,9 @@ namespace ClassicUO.Game.Managers
                 }
 
                 int fakeLines = 0;
-                if (rtext.Text.Length > 99)
+                if (rtext.Text.Length > 150)
                     fakeLines = 3;
-                else if (rtext.Text.Length > 66)
+                else if (rtext.Text.Length > 100)
                     fakeLines = 2;
                 else
                     fakeLines = 1;
